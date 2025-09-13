@@ -1,0 +1,18 @@
+# The tool will save this but here's an example of what a fully filled out profile looks like
+{
+  "profiles": {
+    "Example Domain": {
+      "server": "ldap.example.com",
+      "port": 389,
+      "username": "DOMAIN\\username",
+      "password": "encrypted_password_here",
+      "use_ssl": false,
+      "use_proxy": false,
+      "proxy_type": "SOCKS5",
+      "proxy_host": "",
+      "proxy_port": 1080,
+      "proxy_username": "",
+      "proxy_password": ""
+    }
+  }
+}

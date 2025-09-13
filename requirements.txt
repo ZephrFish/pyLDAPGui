@@ -1,0 +1,19 @@
+# Core dependencies
+PyQt6>=6.4.0
+ldap3>=2.9.1
+cryptography>=3.4.8
+
+# Optional: SOCKS proxy support
+python-socks[asyncio]>=2.0.0
+
+# Optional: Neo4j ingestion
+neo4j>=5.0.0
+neo4j-driver
+
+# Optional: Development and testing
+# pytest>=7.0.0
+# pytest-qt>=4.0.0
+# flake8>=6.0.0
+
+# Optional: Building executables
+pyinstaller>=5.0
