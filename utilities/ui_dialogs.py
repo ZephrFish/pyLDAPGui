@@ -718,7 +718,7 @@ class ObfuscationDialog(QDialog):
             
         try:
             # Obfuscate
-            obfuscated = self.obfuscator.obfuscate(input_query, techniques)
+            obfuscated = self.obfuscator.obfuscate_filter(input_query, techniques)
             
             # Display result
             self.output_text.setPlainText(obfuscated)
