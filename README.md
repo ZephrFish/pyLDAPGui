@@ -54,7 +54,7 @@ _this may or may not load_
    - Check "Use SSL/TLS" for secure connections
    - **Proxy Settings** (Optional):
      - Enable proxy for restricted environments
-     - Support for SOCKS4, SOCKS5, and HTTP proxies
+     - **[Currently broken] **Support for SOCKS4, SOCKS5, and HTTP proxies
      - Configure proxy host, port, and authentication
    - Optionally save as profile for future use
 
